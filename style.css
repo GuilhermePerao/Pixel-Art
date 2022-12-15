@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(228, 228, 171)
+}
+
+
+.color{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.line{
+    display: block;
+    height: 42px;
+}
+
+.pixel{
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+#pixel-board{
+    padding-top: 20px;
+}
+
+#button-random-color{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    width: 180px;
+    height: 35px;
+    
+}
+
+#clear-board{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    width: 180px;
+    height: 35px;
+}
