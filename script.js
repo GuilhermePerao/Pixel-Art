@@ -4,6 +4,7 @@ const board = document.getElementById('pixel-board');
 const clearBtn = document.getElementById('clear-board');
 document.getElementsByClassName('color')[0].className = 'color selected'; //Da ao preto a classe selected
 let selectedColor = 'black'; //Pre seleciona o preto
+let sample = document.getElementById('sample');
 
 const lines = 5;
 const coluns = 5;
@@ -30,6 +31,7 @@ for(index = 0; index < palette.length; index += 1) {
         console.log(event.target.className);
         selectedColor = event.target.style.backgroundColor;
         console.log(selectedColor);
+        sample.style.backgroundColor = `${selectedColor}`;
     });
 }
 
