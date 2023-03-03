@@ -6,8 +6,8 @@ document.getElementsByClassName('color')[0].className = 'color selected'; //Da a
 let selectedColor = 'black'; //Pre seleciona o preto
 let sample = document.getElementById('sample');
 
-const lines = 5;
-const coluns = 5;
+const lines = 10;
+const coluns = 10;
 const pixelSize = 40;
 
 //evento de Cores aleatórias
