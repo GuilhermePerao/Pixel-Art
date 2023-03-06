@@ -5,8 +5,8 @@ body{
 
 .color{
     background-color: rgb(0, 0, 0);
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
     display: inline-block;
     border: 1px solid black;
 }
@@ -20,8 +20,8 @@ body{
     background-color: white;
     border: 1px solid black;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
 }
 
 #sample{
@@ -29,27 +29,36 @@ body{
     margin-left: 15px;
     border: 1px solid black;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
 }
 
 #pixel-board{
     padding-top: 20px;
+    max-width: 100%;
 }
 
 #button-random-color{
     display: block;
     background-color: rgb(238, 238, 238);
-    font-size: 20px;
-    width: 180px;
-    height: 35px;
+    font-size: 40px;
+    width: 360px;
+    height: 80px;
     
 }
 
 #clear-board{
     display: block;
     background-color: rgb(238, 238, 238);
-    font-size: 20px;
-    width: 180px;
-    height: 35px;
+    font-size: 40px;
+    width: 360px;
+    height: 80px;
+}
+
+#apaga-pixel{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    font-size: 40px;
+    width: 360px;
+    height: 80px;
 }

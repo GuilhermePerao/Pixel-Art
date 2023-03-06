@@ -8,7 +8,7 @@ let sample = document.getElementById('sample');
 
 const lines = 10;
 const coluns = 10;
-const pixelSize = 40;
+const pixelSize = 80;
 
 //evento de Cores aleatórias
 randomColorsBtn.addEventListener('click', () => {
